@@ -1,0 +1,38 @@
+---
+title: "Lab2_PSTAT126"
+author: 'TA: Nhan Huynh'
+date: "4/12/2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Reminder
+Homework 1 is posted on GauchoSpace. **Due date: 04/19/2017**.
+
+* You should turn in hard copies of the assignment.
+* You can use Word to display your work. Copy and paste the code, or take screenshots of the code and the output is acceptable.
+* Make sure your printouts compact (reduce size of figures from R) and easy for the grader (your TA) to read.
+* Include your name, perm ID, lab section, and date in your work.
+* You can work together on the homework, but each will need to turn in your own homework.
+* Late homework submission is not acceptable.
+
+## Lab 2
+1. Explore the simple linear regression of BMI (**bmi**) as an predictor and diastolic blood pressure (**diastolic**) as an outcome variable in the **pima** dataset in the **faraway** package. 
+
+* Are there outliers on either variables? How can we remove them from the analysis?
+* Are the data skewed?
+* What does the scatterplot tell us? Does it make sense for body mass to affect blood pressure?
+* What does the intercept of 55 tell us? Can someone really have a BMI of zero?
+* What does the slope of 0.52 tell us?
+* What statistic can we use to judge the fit of the regression? 
+
+2. Explore the simple linear regression of weekly wages, in dollars (**wage**) as an outcome and Years of Education (**educ**) in the **uswages** dataset in the **faraway** package. 
+
+* Are there outliers on either variables?
+* Are the data skewed, and is that a problem?
+* What does the scatterplot tell us?
+* Does it make sense for education to affect wages?
+* What does the intercept of $110 mean? Can someone really have zero years of education?
+* What does the slope of $38 per week mean?
+* What statistic can we use to judge the fit of the regression?
