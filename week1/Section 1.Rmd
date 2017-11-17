@@ -1,0 +1,19 @@
+---
+title: "PSTAT126 Lab1"
+author: 'TA: Nhan Huynh'
+date: "4/4/2017"
+output: pdf_document
+---
+
+## Exercise with R:
+* Start R on the lab computers.
+* Load the 'faraway' data package into R.
+* Read the 'pima' data into R.
+* Summarize the 'pima' data. Spot variables that contain 0. These will need to be set to 'missing'.
+* Display the sorted BMI variable. 
+* Set 0 values to NA for the BMI variable.
+* Re-sort the BMI data to confirm that values of zeroes have been removed.
+* Set 0 to NA for the glucose variable.
+* Create a histogram of the BMI variable.
+* Create a scatterplot of BMI vs. glucose.
+* Add a regression line. 
